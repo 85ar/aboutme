@@ -7,8 +7,8 @@ const Footer = () => {
 
   return (
     <div>
-      <Layout>
-        <Footer>Footer</Footer>
+      <Layout className="layout">
+        <Footer style={{ textAlign: "center" }}>Footer</Footer>
       </Layout>
     </div>
   );
